@@ -1,0 +1,33 @@
+##########################################################################
+# @Project: DRPS_TOY - ROOT-based analysis framework for SwissFEL DRPS   #
+#                                                                        #
+# @author Elisa Musto <Elisa.Musto@psi.ch> - Paul Scherrer Institute     #
+#                                                                        #
+# 12/10/2015                                                             #
+##########################################################################
+##################Configfile##############################################
+##########################################################################
+# Defaul units: time: [s], coordinates: [cm], frequency : [Hz],          #
+# sensitivity: [counts/nSv], dose rate: [muSv/h]                         #
+##########################################################################
+DEBUGLEVEL = DEBUG
+ACQUISITIONTIME = 600
+D1SENSITIVITY = 0.15
+D1INTEGRATIONTIME = 0.05
+D1YPOSITION = 0.
+D1ZPOSITION = 0.
+D1NUISANCE = 0.
+D1ID = OUTD1
+D2SENSITIVITY = 0.15
+D2INTEGRATIONTIME = 0.05
+D2YPOSITION = 0.
+D2ZPOSITION = 200.
+D2NUISANCE = 0.	
+D2ID = OUTD2
+SOURCEDOSE = 0.1
+SOURCEDOSEUNCERTAINTY = 0.1
+SOURCEFREQUENCY = 100.
+SOURCEISRANDOM = false
+SOURCEMINZ = 0.
+SOURCEMAXZ = 200.
+############################################################################
